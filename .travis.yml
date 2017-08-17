@@ -1,0 +1,19 @@
+language: python
+python:
+- 3.5
+- 3.4
+- 3.3
+- 2.7
+- 2.6
+install: pip install -U tox-travis
+script: tox
+deploy:
+  provider: pypi
+  distributions: sdist bdist_wheel
+  user: quica
+  password:
+    secure: NqrPmmNTRQHggsrOlcsRaLpKYr047TFsDl7Ve+eqrMYusKzq33lM7Kvb32vQaUWmgKYuNetvZLSNFwINqy/pM4tZVYzDF3et22W0bcBG/fip8c78qDHDvJfJrPtNe4jHFCF967GCnuH4Hj5YWo/3tHyyzkbUJRKTQDiZ1IzF+4i28YU16V024C9qOGdGwkJTEUrOc6DgXXzrvlZMzqKlq+ZkOh2X0MGBa8TLsq10yeWUqqGtRyTrp8awhU/xaJxkI3cwvYP6mkkEy9FULE3pZl1F00tW1Hu0g5MPZCtx9upYrR8QAHyesrIieCdJRzzR6KeNmvVwRcrO6g9AKRx8OZ5QrHKHmRXvLR1+g3R74MBTR1lRzBDn/EArfOKmknItKyPYr3s2wPBFnF8NUsbBLt6PRS+xjcUdZw9FKTNN90vdtlA9BokCcgA49gETjTuZA7zuQjJHfeooiNee5dP0yioJWvlkaXyDtz2M2poKVHn8smbK3vCq7F3JHcDe2dr9IkX6rYz+LYQ2HoU6zcL8R/7xo6jv83x3VlWcPUR24xbsVrkQG3SoXmLSN2XT82Yz8jPA4Z2hH76Qei3v6gyl/QGz09CPy032aJa4OIc1uoy5r4qpu+HLYcP0mM+fbI9x//vMPUNN9rOi8wvLeYqOOexC76zWvk4bOHwmE4OEEWI=
+  on:
+    tags: true
+    repo: shridarpatil/text-file-to-mp3
+    python: 2.7
