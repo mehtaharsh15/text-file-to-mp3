@@ -20,7 +20,7 @@ except ImportError:
     from urllib.request import urlopen
 
 
-GITHUB_REPO = 'shridarpatil/text_file_to_audio'
+GITHUB_REPO = 'shridarpatil/text-file-to-mp3'
 TRAVIS_CONFIG_FILE = os.path.join(
     os.path.dirname(os.path.abspath(__file__)), '.travis.yml')
 

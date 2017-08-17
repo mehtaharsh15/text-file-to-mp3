@@ -31,7 +31,8 @@ setup(
     long_description=readme + '\n\n' + history,
     author="Shridhar Patil",
     author_email='shridharpatil2792@gmail.com',
-    url='https://github.com/shridarpatil/text_file_to_audio',
+    url='https://github.com/shridarpatil/text_file_to_mp3',
+    download_url='https://github.com/shridarpatil/text_file_to_mp3/archive/0.1.tar.gz',
     packages=find_packages(include=['text_file_to_audio']),
     entry_points={
         'console_scripts': [
@@ -42,7 +43,7 @@ setup(
     install_requires=requirements,
     license="MIT license",
     zip_safe=False,
-    keywords='text_to_mp3',
+    keywords=['text_to_mp3', 'text to audio', 'text to mp3'],
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
