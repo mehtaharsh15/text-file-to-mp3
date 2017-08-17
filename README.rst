@@ -1,12 +1,11 @@
 ==================
 Text File To Audio
 ==================
-[![Build Status](https://travis-ci.org/shridarpatil/text-file-to-mp3.svg?branch=master)](https://travis-ci.org/shridarpatil/text-file-to-mp3)
 
 .. image:: https://img.shields.io/pypi/v/text_file_to_audio.svg
         :target: https://pypi.python.org/pypi/text_file_to_audio
 
-.. image:: https://img.shields.io/travis/shridarpatil/text_file_to_audio.svg
+.. image:: https://travis-ci.org/shridarpatil/text-file-to-mp3.svg?branch=master
         :target: https://travis-ci.org/shridarpatil/text_file_to_audio
 
 .. image:: https://readthedocs.org/projects/text-file-to-audio/badge/?version=latest
