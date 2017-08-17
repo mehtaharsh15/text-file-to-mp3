@@ -25,7 +25,7 @@ test_requirements = [
 ]
 
 setup(
-    name='text_file_to_audio',
+    name='text_to_mp3',
     version='0.1.0',
     description="Converts a text file to mp3",
     long_description=readme + '\n\n' + history,
@@ -35,14 +35,14 @@ setup(
     packages=find_packages(include=['text_file_to_audio']),
     entry_points={
         'console_scripts': [
-            'text_to_audio=text_file_to_audio.cli:main'
+            'text_to_mp3=text_file_to_audio.cli:main'
         ]
     },
     include_package_data=True,
     install_requires=requirements,
     license="MIT license",
     zip_safe=False,
-    keywords='text_file_to_audio',
+    keywords='text_to_mp3',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
