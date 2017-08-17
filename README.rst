@@ -8,15 +8,6 @@ Text File To Audio
 .. image:: https://travis-ci.org/shridarpatil/text-file-to-mp3.svg?branch=master
         :target: https://travis-ci.org/shridarpatil/text_file_to_audio
 
-.. image:: https://readthedocs.org/projects/text-file-to-audio/badge/?version=latest
-        :target: https://text-file-to-audio.readthedocs.io/en/latest/?badge=latest
-        :alt: Documentation Status
-
-.. image:: https://pyup.io/repos/github/shridarpatil/text_file_to_audio/shield.svg
-     :target: https://pyup.io/repos/github/shridarpatil/text_file_to_audio/
-     :alt: Updates
-
-
 Converts a text file to mp3
 
 
