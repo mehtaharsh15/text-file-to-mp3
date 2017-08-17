@@ -12,7 +12,7 @@ Converts a text file to mp3
 
 
 * Free software: MIT license
-* Documentation: https://text-file-to-audio.readthedocs.io.
+* Documentation: https://text-file-to-mp3.readthedocs.io.
 
 
 Features

@@ -32,7 +32,7 @@ setup(
     author="Shridhar Patil",
     author_email='shridharpatil2792@gmail.com',
     url='https://github.com/shridarpatil/text_file_to_mp3',
-    download_url='https://github.com/shridarpatil/text_file_to_mp3/archive/0.1.tar.gz',
+    download_url='https://github.com/shridarpatil/text_file_to_mp3/archive/0.1.1.tar.gz',
     packages=find_packages(include=['text_file_to_audio']),
     entry_points={
         'console_scripts': [

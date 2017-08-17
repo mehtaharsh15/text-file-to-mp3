@@ -14,7 +14,7 @@ To install Text File To Audio, run this command in your terminal:
 
     $ pip install text_file_to_audio
 
-This is the preferred method to install Text File To Audio, as it will always install the most recent stable release. 
+This is the preferred method to install Text File To Audio, as it will always install the most recent stable release.
 
 If you don't have `pip`_ installed, this `Python installation guide`_ can guide
 you through the process.
@@ -32,13 +32,13 @@ You can either clone the public repository:
 
 .. code-block:: console
 
-    $ git clone git://github.com/shridarpatil/text_file_to_audio
+    $ git clone git://github.com/shridarpatil/text-file-to-mp3
 
 Or download the `tarball`_:
 
 .. code-block:: console
 
-    $ curl  -OL https://github.com/shridarpatil/text_file_to_audio/tarball/master
+    $ curl  -OL https://github.com/shridarpatil/text-file-to-mp3/tarball/master
 
 Once you have a copy of the source, you can install it with:
 
@@ -47,5 +47,5 @@ Once you have a copy of the source, you can install it with:
     $ python setup.py install
 
 
-.. _Github repo: https://github.com/shridarpatil/text_file_to_audio
-.. _tarball: https://github.com/shridarpatil/text_file_to_audio/tarball/master
+.. _Github repo: https://github.com/shridarpatil/text-file-to-mp3
+.. _tarball: https://github.com/shridarpatil/text-file-to-mp3/tarball/master
